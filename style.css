@@ -57,4 +57,13 @@ margin-top: 7rem;
     font-size: larger;
     /* position:absolute; */
 }
+#save{
+    text-align: center;
+    font-family:cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: larger;
+}
 

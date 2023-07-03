@@ -1,6 +1,8 @@
 let count=0;
 let element=document.getElementById("count");
 let msg=document.getElementById("message");
+let save=document.getElementById("save")
+
 function increment(){
       
     count++;
@@ -37,4 +39,12 @@ function zero(){
     count=0;
     element.innerHTML=count;
     }
+}
+function savedata(){
+    if(count!=0){
+    let countdata=count + " - ";
+    save.innerText+=countdata
+    
+    }
+    element.textContent=0;
 }
