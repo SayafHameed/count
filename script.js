@@ -47,4 +47,5 @@ function savedata(){
     
     }
     element.textContent=0;
+    count=0;
 }
